@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: gray;
+    display: grid;
+}
+div#chromo{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border: 1px black groove;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+#blue{
+    height: 150px;
+    width: 150px;
+    background-color: darkblue;
+    clip-path: circle(99.8% at 100% 100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#blue:active{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    clip-path: circle(99.8% at 100% 100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.azul{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    clip-path: circle(99.8% at 100% 100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#yellow{
+    height: 150px;
+    width: 150px;
+    background-color: darkgoldenrod;
+    clip-path: circle(99.8% at 0 100%);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+#yellow:active{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    clip-path: circle(99.8% at 0 100%);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+.amarelo{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    clip-path: circle(99.8% at 0 100%);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+#red{
+    height: 150px;
+    width: 150px;
+    background-color: darkred;
+    clip-path: circle(99.8% at 0 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#red:active{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    clip-path: circle(99.8% at 0 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.vermelho{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    clip-path: circle(99.8% at 0 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#green{
+    height: 150px;
+    width: 150px;
+    background-color: darkgreen;
+    clip-path: circle(99.8% at 100% 0);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+#green:active{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    clip-path: circle(99.8% at 100% 0);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.verde{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    clip-path: circle(99.8% at 100% 0);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
